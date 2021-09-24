@@ -1,8 +1,8 @@
 import alpaca_trade_api as tradeapi
 import openpyxl
 import time
-kye = 'PKHLR865RN5X219RSVE2'
-sec = '4fCQbuK0tzsW9TiFBZKfc1zMzMotimAVfsB9XTOg'
+kye = ''
+sec = ''
 url = "https://paper-api.alpaca.markets"
 api = tradeapi.REST(kye, sec, url, api_version='v2')
 # Get daily price data for AAPL over the last 5 trading days.
