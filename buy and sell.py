@@ -3,8 +3,8 @@ import numpy as np
 import time
 
 
-key = "PKHLR865RN5X219RSVE2"
-sec = "4fCQbuK0tzsW9TiFBZKfc1zMzMotimAVfsB9XTOg"
+key = ""
+sec = ""
 BASE_URL = 'https://paper-api.alpaca.markets'
 api = tradeapi.REST(key_id=key, secret_key=sec, base_url=BASE_URL)
 
